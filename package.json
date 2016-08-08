@@ -1,7 +1,7 @@
 {
   "name": "hubot-varda-hubot-mqtt-bridge",
   "description": "Hubot MQTT bridge",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Ronny Stauffer <ronny.stauffer@wir-entwickeln.ch>",
   "license": "MIT",
 
@@ -9,14 +9,15 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-varda-hubot-mqtt-bridge.git"
+    "url": "git://github.com/ronny-stauffer/varda-hubot-mqtt-bridge.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-varda-hubot-mqtt-bridge/issues"
+    "url": "https://github.com/ronny-stauffer/varda-hubot-mqtt-bridge/issues"
   },
 
   "dependencies": {
+    "mqtt": "^1.12.0"
   },
 
   "peerDependencies": {
