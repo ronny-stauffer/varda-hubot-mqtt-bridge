@@ -16,12 +16,17 @@
 
 mqtt = require('mqtt')
 
-mqttUrl = 'mqtt://localhost'
+#mqttUrl = 'mqtt://localhost'
+mqttUrl = 'mqtt://m21.cloudmqtt.com:17429'
 mqttOptions =
-  host: 'localhost'
-  port: 1883
   protocolId: 'MQIsdp'
   protocolVersion: 3
+#  host: 'localhost'
+  host: 'm21.cloudmqtt.com'
+#  port: 1883
+  port: 17429
+  username: 'varda'
+  password: new Buffer('varda')
 # block comment out the rest of thes if no tls
 #  ca: TRUSTED_CA_LIST
 #  rejectUnauthorized: true
