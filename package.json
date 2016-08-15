@@ -1,7 +1,7 @@
 {
   "name": "hubot-varda-hubot-mqtt-bridge",
   "description": "Hubot MQTT bridge",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Ronny Stauffer <ronny.stauffer@wir-entwickeln.ch>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts",
