@@ -40,7 +40,7 @@ mqttOptions =
 mqttClient = mqtt.connect(mqttUrl, mqttOptions)
 
 mqttClient.on 'connect', ->
-  console.log "Connected to MQTT broker."
+  console.log "Connected to MQTT broker (v2)."
 
 mqttClient.subscribe('hubot-outbound')
 
